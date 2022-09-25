@@ -1,0 +1,7 @@
+.hover-color {
+  transition: color 0.2s ease-out;
+}
+
+.hover-color:hover {
+  color: #39cfcf;
+}
