@@ -13,11 +13,19 @@ export default function Header() {
           display="flex"
           justifyContent={"space-between"}
         >
-          <Box className="hover-color">Ronan</Box>
+          <Box className="hover-color">
+            <Link to="/">Ronan</Link>
+          </Box>
           <Box display="flex" gap="16px">
-            <Link className="hover-color">About</Link>
-            <Link className="hover-color">Cats</Link>
-            <Link className="hover-color">Number Guessing Game</Link>
+            <Link to="/about" className="hover-color">
+              About
+            </Link>
+            <Link to="/mycats" className="hover-color">
+              Cats
+            </Link>
+            <Link to="/game" className="hover-color">
+              Number Guessing Game
+            </Link>
           </Box>
         </Container>
       </Box>
