@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 export default function Header() {
   return (
     <>
-      <Box bgColor={"black"} color="white" padding={"16px"}>
+      <Box bgColor={"#212529"} color="white" padding={"16px"}>
         <Container
           maxWidth={800}
           display="flex"

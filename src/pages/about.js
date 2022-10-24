@@ -2,6 +2,7 @@ import * as React from "react";
 
 import {
   Box,
+  Button,
   Container,
   Tabs,
   Tab,
@@ -10,18 +11,21 @@ import {
   TabPanel,
   Text,
   Image,
+  useDisclosure,
 } from "@chakra-ui/react";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
+import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
 
 export default function AboutPage() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Header />
-      <Box bgColor={"#def7ff"}>
+      <Box bgColor={"#31363b"}>
         <Container maxWidth={800}>
           <Tabs>
             <TabList>
@@ -67,7 +71,8 @@ export default function AboutPage() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <p>three!</p>
+                <Button onClick={onOpen}>Open Modal</Button>
+                <AchievementModal isOpen={isOpen} onClose={onClose} />
               </TabPanel>
             </TabPanels>
           </Tabs>

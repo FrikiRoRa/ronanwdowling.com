@@ -30,7 +30,7 @@ const IndexPage = () => {
   return (
     <>
       <Header />
-      <Box bgColor={"#def7ff"}>
+      <Box bgColor={"#31363b"}>
         <Container maxWidth={800}>
           <Box>Blah Blah Blah, I am a programmer</Box>
           <Image src={pictureOfMe} />

@@ -46,7 +46,7 @@ function NumberGuessingGame() {
   return (
     <>
       <Header />
-      <Box bgColor={"#def7ff"}>
+      <Box bgColor={"#31363b"}>
         <Container maxWidth={800}>
           <Box className="App" padding="16px">
             <Text> How many guesses?</Text>
