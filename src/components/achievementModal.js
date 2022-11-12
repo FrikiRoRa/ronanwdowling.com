@@ -11,6 +11,7 @@ import {
   ModalBody,
   ModalCloseButton,
   Text,
+  Image,
 } from "@chakra-ui/react";
 
 export default function AchievementModal(props) {
@@ -18,30 +19,22 @@ export default function AchievementModal(props) {
     <Modal isOpen={props.isOpen} onClose={props.onClose}>
       <ModalOverlay />
       <ModalContent backgroundColor={"#31363b"}>
-        <ModalHeader backgroundColor={"#F4BFA1"}>
-          <Box display="flex" alignItems={"center"}>
-            <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" />
+        <ModalHeader backgroundColor={"#F4BFA1"} borderTopRadius={"inherit"}>
+          <Box display="flex" justifyContent={"center"}>
+            <Image width="200px" src={props.iconUrl} />
           </Box>
         </ModalHeader>
         <ModalCloseButton />
-        <ModalBody>
-          <Text>Programming</Text>
-          <Text>
-            I have been programming for almost a year, and I've learned the
-            basics of JavaScript, HTML, and CSS!
+        <ModalBody padding={"16px"}>
+          <Text fontSize="2xl" fontWeight={"bold"}>
+            {props.activityName}
           </Text>
-          <UnorderedList>
-            <ListItem>
-              Sept 2022 - Published my personal site on ronanwdowling.com and
-              React
-            </ListItem>
-            <ListItem>
-              May 2022 - Started to learn intermediate JavaScript and React
-            </ListItem>
-            <ListItem>
-              April 2022 - Deployed my first website to the web!
-            </ListItem>
-            <ListItem>Dec 2021 - Started QED Programming Project</ListItem>
+          <Text mb="16px">{props.description}</Text>
+          <hr />
+          <UnorderedList mt="16px">
+            {props.bulletPoints.map(function (bulletPoint, i) {
+              return <ListItem key={i}>{bulletPoint}</ListItem>;
+            })}
           </UnorderedList>
         </ModalBody>
       </ModalContent>

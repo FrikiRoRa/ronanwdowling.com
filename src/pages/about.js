@@ -20,8 +20,23 @@ import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
 
+import { achievements } from "../achievementData";
+
 export default function AboutPage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const {
+    isOpen: isOpen2,
+    onOpen: onOpen2,
+    onClose: onClose2,
+  } = useDisclosure();
+
+  const bulletPointList = [
+    "Sept 2022 - Published my personal site on ronanwdowling.com and React",
+    "May 2022 - Started to learn intermediate JavaScript and React",
+    "April 2022 - Deployed my first website to the web!",
+    "Dec 2021 - Started QED Programming Project",
+  ];
+
   return (
     <>
       <Header />
@@ -30,8 +45,10 @@ export default function AboutPage() {
           <Tabs>
             <TabList>
               <Tab>About Me</Tab>
-              <Tab>Achievements</Tab>
-              <Tab>Setup</Tab>
+              <Tab>Sports</Tab>
+              <Tab>Academics</Tab>
+              <Tab>Music</Tab>
+              <Tab>Programming</Tab>
             </TabList>
 
             <TabPanels>
@@ -55,24 +72,104 @@ export default function AboutPage() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <Box p={5} shadow="md" borderWidth="1px">
-                  <Text fontSize="xl">
-                    National Spanish Exam Award - ORO Ribbon
-                  </Text>
-                  <Text mt={4}>
-                    Awarded to students scoring at or above the 95th percentile
-                  </Text>
-                </Box>
-                <Box p={5} shadow="md" borderWidth="1px">
-                  <Text fontSize="xl">Hapkido Black Belt</Text>
-                  <Text mt={4}>
-                    Practicing since 2011, earned the black belt in 2019.
-                  </Text>
-                </Box>
+                <Button bgColor="orange" onClick={onOpen}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen}
+                  onClose={onClose}
+                  activityName="Programming"
+                  description="I have been programming for almost a year, and I've learned the
+                  basics of JavaScript, HTML, and CSS!"
+                  bulletPoints={bulletPointList}
+                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                />
+                <Button bgColor="teal" onClick={onOpen2}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen2}
+                  onClose={onClose2}
+                  activityName={achievements.volleyball.name}
+                  description={achievements.volleyball.description}
+                  bulletPoints={achievements.volleyball.bulletPoints}
+                  iconUrl={achievements.volleyball.iconUrl}
+                />
               </TabPanel>
               <TabPanel>
-                <Button onClick={onOpen}>Open Modal</Button>
-                <AchievementModal isOpen={isOpen} onClose={onClose} />
+                <Button bgColor="orange" onClick={onOpen}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen}
+                  onClose={onClose}
+                  activityName="Programming"
+                  description="I have been programming for almost a year, and I've learned the
+                  basics of JavaScript, HTML, and CSS!"
+                  bulletPoints={bulletPointList}
+                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                />
+                <Button bgColor="teal" onClick={onOpen2}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen2}
+                  onClose={onClose2}
+                  activityName={achievements.volleyball.name}
+                  description={achievements.volleyball.description}
+                  bulletPoints={achievements.volleyball.bulletPoints}
+                  iconUrl={achievements.volleyball.iconUrl}
+                />
+              </TabPanel>
+              <TabPanel>
+                <Button bgColor="orange" onClick={onOpen}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen}
+                  onClose={onClose}
+                  activityName="Programming"
+                  description="I have been programming for almost a year, and I've learned the
+                  basics of JavaScript, HTML, and CSS!"
+                  bulletPoints={bulletPointList}
+                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                />
+                <Button bgColor="teal" onClick={onOpen2}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen2}
+                  onClose={onClose2}
+                  activityName={achievements.volleyball.name}
+                  description={achievements.volleyball.description}
+                  bulletPoints={achievements.volleyball.bulletPoints}
+                  iconUrl={achievements.volleyball.iconUrl}
+                />
+              </TabPanel>
+              <TabPanel>
+                <Button bgColor="orange" onClick={onOpen}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen}
+                  onClose={onClose}
+                  activityName="Programming"
+                  description="I have been programming for almost a year, and I've learned the
+                  basics of JavaScript, HTML, and CSS!"
+                  bulletPoints={bulletPointList}
+                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                />
+                <Button bgColor="teal" onClick={onOpen2}>
+                  Open Modal
+                </Button>
+                <AchievementModal
+                  isOpen={isOpen2}
+                  onClose={onClose2}
+                  activityName={achievements.volleyball.name}
+                  description={achievements.volleyball.description}
+                  bulletPoints={achievements.volleyball.bulletPoints}
+                  iconUrl={achievements.volleyball.iconUrl}
+                />
               </TabPanel>
             </TabPanels>
           </Tabs>
