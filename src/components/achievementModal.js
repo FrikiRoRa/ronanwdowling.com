@@ -19,9 +19,17 @@ export default function AchievementModal(props) {
     <Modal isOpen={props.isOpen} onClose={props.onClose}>
       <ModalOverlay />
       <ModalContent backgroundColor={"#31363b"}>
-        <ModalHeader backgroundColor={"#F4BFA1"} borderTopRadius={"inherit"}>
-          <Box display="flex" justifyContent={"center"}>
-            <Image width="200px" src={props.iconUrl} />
+        <ModalHeader
+          backgroundColor={"#F4BFA1"}
+          padding={0}
+          borderTopRadius={"inherit"}
+        >
+          <Box
+            display="flex"
+            justifyContent={"center"}
+            borderTopRadius={"inherit"}
+          >
+            <Image src={props.iconImg} borderTopRadius={"inherit"} />
           </Box>
         </ModalHeader>
         <ModalCloseButton />

@@ -82,7 +82,7 @@ export default function AboutPage() {
                   description="I have been programming for almost a year, and I've learned the
                   basics of JavaScript, HTML, and CSS!"
                   bulletPoints={bulletPointList}
-                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
                 />
                 <Button bgColor="teal" onClick={onOpen2}>
                   Open Modal
@@ -93,7 +93,7 @@ export default function AboutPage() {
                   activityName={achievements.volleyball.name}
                   description={achievements.volleyball.description}
                   bulletPoints={achievements.volleyball.bulletPoints}
-                  iconUrl={achievements.volleyball.iconUrl}
+                  iconImg={achievements.volleyball.iconImg}
                 />
               </TabPanel>
               <TabPanel>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                   description="I have been programming for almost a year, and I've learned the
                   basics of JavaScript, HTML, and CSS!"
                   bulletPoints={bulletPointList}
-                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
                 />
                 <Button bgColor="teal" onClick={onOpen2}>
                   Open Modal
@@ -118,7 +118,7 @@ export default function AboutPage() {
                   activityName={achievements.volleyball.name}
                   description={achievements.volleyball.description}
                   bulletPoints={achievements.volleyball.bulletPoints}
-                  iconUrl={achievements.volleyball.iconUrl}
+                  iconImg={achievements.volleyball.iconImg}
                 />
               </TabPanel>
               <TabPanel>
@@ -132,7 +132,7 @@ export default function AboutPage() {
                   description="I have been programming for almost a year, and I've learned the
                   basics of JavaScript, HTML, and CSS!"
                   bulletPoints={bulletPointList}
-                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
                 />
                 <Button bgColor="teal" onClick={onOpen2}>
                   Open Modal
@@ -143,7 +143,7 @@ export default function AboutPage() {
                   activityName={achievements.volleyball.name}
                   description={achievements.volleyball.description}
                   bulletPoints={achievements.volleyball.bulletPoints}
-                  iconUrl={achievements.volleyball.iconUrl}
+                  iconImg={achievements.volleyball.iconImg}
                 />
               </TabPanel>
               <TabPanel>
@@ -157,7 +157,7 @@ export default function AboutPage() {
                   description="I have been programming for almost a year, and I've learned the
                   basics of JavaScript, HTML, and CSS!"
                   bulletPoints={bulletPointList}
-                  iconUrl="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
                 />
                 <Button bgColor="teal" onClick={onOpen2}>
                   Open Modal
@@ -168,7 +168,7 @@ export default function AboutPage() {
                   activityName={achievements.volleyball.name}
                   description={achievements.volleyball.description}
                   bulletPoints={achievements.volleyball.bulletPoints}
-                  iconUrl={achievements.volleyball.iconUrl}
+                  iconImg={achievements.volleyball.iconImg}
                 />
               </TabPanel>
             </TabPanels>

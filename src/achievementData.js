@@ -1,3 +1,5 @@
+import volleyballImg from "./images/Volleyball.jpg"; // Tell webpack this JS file uses this image
+
 export const achievements = {
   volleyball: {
     name: "Volleyball",
@@ -7,7 +9,6 @@ export const achievements = {
       "I play in the setter position",
       "Whenever we play volleyball, I love getting cheeseburgers after with the team!",
     ],
-    iconUrl:
-      "https://c.neevacdn.net/image/fetch/s--lUjll258--/https%3A//cdn0.iconfinder.com/data/icons/sports-59/512/Volleyball-512.png?savepath=Volleyball-512.png",
+    iconImg: volleyballImg,
   },
 };
