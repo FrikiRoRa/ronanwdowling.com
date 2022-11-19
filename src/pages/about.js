@@ -24,18 +24,15 @@ import { achievements } from "../achievementData";
 
 export default function AboutPage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const {
-    isOpen: isOpen2,
-    onOpen: onOpen2,
-    onClose: onClose2,
-  } = useDisclosure();
 
-  const bulletPointList = [
-    "Sept 2022 - Published my personal site on ronanwdowling.com and React",
-    "May 2022 - Started to learn intermediate JavaScript and React",
-    "April 2022 - Deployed my first website to the web!",
-    "Dec 2021 - Started QED Programming Project",
-  ];
+  const [selectedActivity, setSelectedActivity] = React.useState(
+    achievements["programming"]
+  );
+
+  function handleOpenModal(activityName) {
+    setSelectedActivity(achievements[activityName]);
+    onOpen();
+  }
 
   return (
     <>
@@ -72,104 +69,41 @@ export default function AboutPage() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <Button bgColor="orange" onClick={onOpen}>
-                  Open Modal
+                <Button
+                  bgColor="orange"
+                  onClick={() => handleOpenModal("programming")}
+                >
+                  Programming
                 </Button>
                 <AchievementModal
                   isOpen={isOpen}
                   onClose={onClose}
-                  activityName="Programming"
-                  description="I have been programming for almost a year, and I've learned the
-                  basics of JavaScript, HTML, and CSS!"
-                  bulletPoints={bulletPointList}
-                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
+                  activityName={selectedActivity.name}
+                  description={selectedActivity.description}
+                  bulletPoints={selectedActivity.bulletPoints}
+                  iconImg={selectedActivity.iconImg}
                 />
-                <Button bgColor="teal" onClick={onOpen2}>
-                  Open Modal
+                <Button
+                  bgColor="teal"
+                  onClick={() => handleOpenModal("volleyball")}
+                >
+                  Volleyball
                 </Button>
-                <AchievementModal
-                  isOpen={isOpen2}
-                  onClose={onClose2}
-                  activityName={achievements.volleyball.name}
-                  description={achievements.volleyball.description}
-                  bulletPoints={achievements.volleyball.bulletPoints}
-                  iconImg={achievements.volleyball.iconImg}
-                />
               </TabPanel>
               <TabPanel>
                 <Button bgColor="orange" onClick={onOpen}>
                   Open Modal
                 </Button>
-                <AchievementModal
-                  isOpen={isOpen}
-                  onClose={onClose}
-                  activityName="Programming"
-                  description="I have been programming for almost a year, and I've learned the
-                  basics of JavaScript, HTML, and CSS!"
-                  bulletPoints={bulletPointList}
-                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
-                />
-                <Button bgColor="teal" onClick={onOpen2}>
-                  Open Modal
-                </Button>
-                <AchievementModal
-                  isOpen={isOpen2}
-                  onClose={onClose2}
-                  activityName={achievements.volleyball.name}
-                  description={achievements.volleyball.description}
-                  bulletPoints={achievements.volleyball.bulletPoints}
-                  iconImg={achievements.volleyball.iconImg}
-                />
               </TabPanel>
               <TabPanel>
                 <Button bgColor="orange" onClick={onOpen}>
                   Open Modal
                 </Button>
-                <AchievementModal
-                  isOpen={isOpen}
-                  onClose={onClose}
-                  activityName="Programming"
-                  description="I have been programming for almost a year, and I've learned the
-                  basics of JavaScript, HTML, and CSS!"
-                  bulletPoints={bulletPointList}
-                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
-                />
-                <Button bgColor="teal" onClick={onOpen2}>
-                  Open Modal
-                </Button>
-                <AchievementModal
-                  isOpen={isOpen2}
-                  onClose={onClose2}
-                  activityName={achievements.volleyball.name}
-                  description={achievements.volleyball.description}
-                  bulletPoints={achievements.volleyball.bulletPoints}
-                  iconImg={achievements.volleyball.iconImg}
-                />
               </TabPanel>
               <TabPanel>
                 <Button bgColor="orange" onClick={onOpen}>
                   Open Modal
                 </Button>
-                <AchievementModal
-                  isOpen={isOpen}
-                  onClose={onClose}
-                  activityName="Programming"
-                  description="I have been programming for almost a year, and I've learned the
-                  basics of JavaScript, HTML, and CSS!"
-                  bulletPoints={bulletPointList}
-                  iconImg="https://c.neevacdn.net/image/fetch/s--L4_gxJGo--/https%3A//cdn2.iconfinder.com/data/icons/user-interface-web/550/user-interface-web_11-512.png?savepath=user-interface-web_11-512.png"
-                />
-                <Button bgColor="teal" onClick={onOpen2}>
-                  Open Modal
-                </Button>
-                <AchievementModal
-                  isOpen={isOpen2}
-                  onClose={onClose2}
-                  activityName={achievements.volleyball.name}
-                  description={achievements.volleyball.description}
-                  bulletPoints={achievements.volleyball.bulletPoints}
-                  iconImg={achievements.volleyball.iconImg}
-                />
               </TabPanel>
             </TabPanels>
           </Tabs>
