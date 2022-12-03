@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import { Button, Input, Box, Container, Text } from "@chakra-ui/react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+
+import MainLayout from "../components/MainLayout";
 
 import "../style/style.css";
 
@@ -44,8 +44,7 @@ function NumberGuessingGame() {
     }
   }
   return (
-    <>
-      <Header />
+    <MainLayout>
       <Box bgColor={"#31363b"}>
         <Container maxWidth={800}>
           <Box className="App" padding="16px">
@@ -83,8 +82,7 @@ function NumberGuessingGame() {
           </Box>
         </Container>
       </Box>
-      <Footer />
-    </>
+    </MainLayout>
   );
 }
 
