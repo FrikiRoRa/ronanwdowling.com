@@ -19,6 +19,7 @@ import MainLayout from "../components/MainLayout";
 import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
+import programmingIcon from "../images/achievementIcons/programming.png";
 
 import { achievements } from "../achievementData";
 
@@ -85,12 +86,15 @@ export default function AboutPage() {
                 </Button>
               </TabPanel>
               <TabPanel>
-                <Button
-                  bgColor="orange"
-                  onClick={() => handleOpenModal("programming")}
-                >
-                  Programming
-                </Button>
+                <Box display="flex" flexDir="column" alignItems="center">
+                  <Image width={"50px"} src={programmingIcon}></Image>
+                  <Button
+                    bgColor="orange"
+                    onClick={() => handleOpenModal("programming")}
+                  >
+                    Programming
+                  </Button>
+                </Box>
               </TabPanel>
             </TabPanels>
           </Tabs>

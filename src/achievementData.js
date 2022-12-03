@@ -1,6 +1,6 @@
-import volleyballImg from "./images/Volleyball.jpg"; // Tell webpack this JS file uses this image
-import programmingImg from "./images/programming.jpg"; // Tell webpack this JS file uses this image
-import pianoImg from "./images/piano.jpg"; // Tell webpack this JS file uses this image
+import volleyballImg from "./images/achievementBanner/Volleyball.jpg"; // Tell webpack this JS file uses this image
+import programmingImg from "./images/achievementBanner/programming.jpg"; // Tell webpack this JS file uses this image
+import pianoImg from "./images/achievementBanner/piano.jpg"; // Tell webpack this JS file uses this image
 
 export const achievements = {
   programming: {
