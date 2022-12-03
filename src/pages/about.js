@@ -14,11 +14,12 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 
-import Header from "../components/header";
-import Footer from "../components/footer";
+import MainLayout from "../components/MainLayout";
+
 import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
+import programmingIcon from "../images/achievementIcons/programming.png";
 
 import { achievements } from "../achievementData";
 
@@ -35,8 +36,7 @@ export default function AboutPage() {
   }
 
   return (
-    <>
-      <Header />
+    <MainLayout>
       <Box bgColor={"#31363b"}>
         <Container maxWidth={800}>
           <Tabs>
@@ -47,7 +47,6 @@ export default function AboutPage() {
               <Tab>Music</Tab>
               <Tab>Programming</Tab>
             </TabList>
-
             <TabPanels>
               <TabPanel>
                 <Box>
@@ -70,20 +69,6 @@ export default function AboutPage() {
               </TabPanel>
               <TabPanel>
                 <Button
-                  bgColor="orange"
-                  onClick={() => handleOpenModal("programming")}
-                >
-                  Programming
-                </Button>
-                <AchievementModal
-                  isOpen={isOpen}
-                  onClose={onClose}
-                  activityName={selectedActivity.name}
-                  description={selectedActivity.description}
-                  bulletPoints={selectedActivity.bulletPoints}
-                  iconImg={selectedActivity.iconImg}
-                />
-                <Button
                   bgColor="teal"
                   onClick={() => handleOpenModal("volleyball")}
                 >
@@ -96,20 +81,33 @@ export default function AboutPage() {
                 </Button>
               </TabPanel>
               <TabPanel>
-                <Button bgColor="orange" onClick={onOpen}>
-                  Open Modal
+                <Button bgColor="teal" onClick={() => handleOpenModal("piano")}>
+                  Piano
                 </Button>
               </TabPanel>
               <TabPanel>
-                <Button bgColor="orange" onClick={onOpen}>
-                  Open Modal
-                </Button>
+                <Box display="flex" flexDir="column" alignItems="center">
+                  <Image width={"50px"} src={programmingIcon}></Image>
+                  <Button
+                    bgColor="orange"
+                    onClick={() => handleOpenModal("programming")}
+                  >
+                    Programming
+                  </Button>
+                </Box>
               </TabPanel>
             </TabPanels>
           </Tabs>
         </Container>
       </Box>
-      <Footer />
-    </>
+      <AchievementModal
+        isOpen={isOpen}
+        onClose={onClose}
+        activityName={selectedActivity.name}
+        description={selectedActivity.description}
+        bulletPoints={selectedActivity.bulletPoints}
+        iconImg={selectedActivity.iconImg}
+      />
+    </MainLayout>
   );
 }

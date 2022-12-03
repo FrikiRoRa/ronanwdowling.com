@@ -5,19 +5,16 @@ import {
   Button,
   WrapItem,
   Stack,
-  ButtonGroup,
-  Wrap,
+  Heading,
+  Text,
   Image,
 } from "@chakra-ui/react";
 
-import { Link } from "gatsby";
-
-import Header from "../components/header";
-import Footer from "../components/footer";
+import MainLayout from "../components/MainLayout";
 
 import { useToast } from "@chakra-ui/react";
 
-import pictureOfMe from "../images/me.jpg";
+import familyBeach from "../images/family_beach.jpg";
 
 import "../style/style.css";
 
@@ -28,16 +25,17 @@ const IndexPage = () => {
 
   // return the html
   return (
-    <>
-      <Header />
-      <Box bgColor={"#31363b"}>
-        <Container maxWidth={800}>
-          <Box>Blah Blah Blah, I am a programmer</Box>
-          <Image src={pictureOfMe} />
+    <MainLayout>
+      <Box>
+        <Container maxWidth={800} paddingY="16px">
+          <Heading>Hi! I'm Ronan</Heading>
+          <Heading>Welcome to my personal website</Heading>
         </Container>
+        <Box width="100%" height="500px" overflow={"hidden"}>
+          <Image src={familyBeach} />
+        </Box>
       </Box>
-      <Footer />
-    </>
+    </MainLayout>
   );
 };
 
