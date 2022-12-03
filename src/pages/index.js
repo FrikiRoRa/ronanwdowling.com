@@ -10,10 +10,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-import { Link } from "gatsby";
-
-import Header from "../components/header";
-import Footer from "../components/footer";
+import MainLayout from "../components/MainLayout";
 
 import { useToast } from "@chakra-ui/react";
 
@@ -28,16 +25,14 @@ const IndexPage = () => {
 
   // return the html
   return (
-    <>
-      <Header />
-      <Box bgColor={"#31363b"}>
+    <MainLayout>
+      <Box>
         <Container maxWidth={800}>
           <Box>Blah Blah Blah, I am a programmer</Box>
           <Image src={pictureOfMe} />
         </Container>
       </Box>
-      <Footer />
-    </>
+    </MainLayout>
   );
 };
 

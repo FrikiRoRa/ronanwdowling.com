@@ -1,5 +1,6 @@
 import volleyballImg from "./images/Volleyball.jpg"; // Tell webpack this JS file uses this image
-import pianoImg from "./images/Piano#2.jpg"; // Tell webpack this JS file uses this image
+import programmingImg from "./images/programming.jpg"; // Tell webpack this JS file uses this image
+import pianoImg from "./images/piano.jpg"; // Tell webpack this JS file uses this image
 
 export const achievements = {
   programming: {
@@ -12,7 +13,7 @@ export const achievements = {
       "April 2022 - Deployed my first website to the web!",
       "Dec 2021 - Started QED Programming Project",
     ],
-    iconImg: pianoImg,
+    iconImg: programmingImg,
   },
   volleyball: {
     name: "Volleyball",
@@ -23,5 +24,15 @@ export const achievements = {
       "Whenever we play volleyball, I love getting cheeseburgers after with the team!",
     ],
     iconImg: volleyballImg,
+  },
+  piano: {
+    name: "Piano",
+    description: "I've been learning piano for over 5 years.",
+    bulletPoints: [
+      "My favorite musicians are Stevie Wonder and Mozart",
+      "I love playing for my classmates at Crane's Music Hour, a open-mic for student musicians",
+      "The most recent piece I've been practicing is Wet Hands from Minecraft",
+    ],
+    iconImg: pianoImg,
   },
 };
