@@ -18,5 +18,11 @@ module.exports = {
         isUsingColorMode: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/favicon.ico",
+      },
+    },
   ],
 };

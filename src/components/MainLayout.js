@@ -23,6 +23,7 @@ const MainLayout = (props) => {
       flexDirection="column"
       minHeight={"100vh"}
       bgColor={"#31363b"}
+      color="mainBody"
     >
       <Header />
       {props.children}

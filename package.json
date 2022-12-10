@@ -18,8 +18,14 @@
     "@chakra-ui/react": "^2.3.1",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@fontsource/chivo": "^4.5.10",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "framer-motion": "^7.2.1",
-    "gatsby": "^4.21.1",
+    "gatsby": "^4.25.0",
+    "gatsby-plugin-manifest": "^4.25.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }

@@ -12,8 +12,29 @@ export default function Header() {
           maxWidth={800}
           display="flex"
           justifyContent={"space-between"}
+          alignItems="center"
         >
-          <Box className="hover-color">
+          <Box
+            className="hover-color"
+            fontFamily="chivo"
+            fontSize={"24px"}
+            fontWeight="bold"
+            display={"flex"}
+            alignItems="center"
+          >
+            <Box
+              display={"inline-block"}
+              fontSize="36px"
+              color="black"
+              bgColor="white"
+              height="48px"
+              width="48px"
+              textAlign={"center"}
+              lineHeight={"48px"}
+              marginRight="8px"
+            >
+              R
+            </Box>
             <Link to="/">Ronan</Link>
           </Box>
           <Box display="flex" gap="16px">
