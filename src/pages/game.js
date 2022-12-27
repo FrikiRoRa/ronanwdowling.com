@@ -51,6 +51,7 @@ function NumberGuessingGame() {
             <Text> How many guesses?</Text>
             <Input
               backgroundColor={"white"}
+              color="black"
               marginY="16px"
               onChange={function (event) {
                 setNumGuesses(Number(event.target.value));
@@ -66,6 +67,7 @@ function NumberGuessingGame() {
             <Input
               backgroundColor={"white"}
               marginY="16px"
+              color="black"
               onChange={(event) => {
                 setGuess(Number(event.target.value));
               }}
