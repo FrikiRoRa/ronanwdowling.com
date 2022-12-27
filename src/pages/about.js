@@ -20,6 +20,11 @@ import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
 import programmingIcon from "../images/achievementIcons/programming.png";
+import volleyballIcon from "../images/achievementIcons/volleyball.png";
+import hapkidoIcon from "../images/achievementIcons/hapkido.png";
+import bikingIcon from "../images/achievementIcons/biking.png";
+import basketballIcon from "../images/achievementIcons/basketball.png";
+import soccerIcon from "../images/achievementIcons/soccer.png";
 
 import { achievements } from "../achievementData";
 
@@ -43,9 +48,7 @@ export default function AboutPage() {
             <TabList>
               <Tab>About Me</Tab>
               <Tab>Sports</Tab>
-              <Tab>Academics</Tab>
-              <Tab>Music</Tab>
-              <Tab>Programming</Tab>
+              <Tab>Extracurriculars</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
@@ -68,33 +71,101 @@ export default function AboutPage() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <Button
-                  bgColor="teal"
-                  onClick={() => handleOpenModal("volleyball")}
-                >
-                  Volleyball
-                </Button>
-              </TabPanel>
-              <TabPanel>
-                <Button bgColor="orange" onClick={onOpen}>
-                  Open Modal
-                </Button>
+                <Box display="flex">
+                  <Box
+                    display="flex"
+                    flexDir={"column"}
+                    alignItems="center"
+                    padding={"8px"}
+                  >
+                    <Image src={volleyballIcon} width={"50px"} />
+                    <Button
+                      bgColor="teal"
+                      onClick={() => handleOpenModal("volleyball")}
+                    >
+                      Volleyball
+                    </Button>
+                  </Box>
+                  <Box
+                    display="flex"
+                    flexDir={"column"}
+                    alignItems="center"
+                    padding={"8px"}
+                  >
+                    <Image src={hapkidoIcon} width={"50px"} />
+                    <Button
+                      bgColor="teal"
+                      onClick={() => handleOpenModal("hapkido")}
+                    >
+                      Hapkido
+                    </Button>
+                  </Box>
+                  <Box
+                    display="flex"
+                    flexDir={"column"}
+                    alignItems="center"
+                    padding={"8px"}
+                  >
+                    <Image src={basketballIcon} width={"50px"} />
+                    <Button
+                      bgColor="orange"
+                      onClick={() => handleOpenModal("basketball")}
+                    >
+                      Basketball
+                    </Button>
+                  </Box>
+                  <Box
+                    display="flex"
+                    flexDir={"column"}
+                    alignItems="center"
+                    padding={"8px"}
+                  >
+                    <Image src={bikingIcon} width={"50px"} />
+                    <Button
+                      bgColor="orange"
+                      onClick={() => handleOpenModal("biking")}
+                    >
+                      Biking
+                    </Button>
+                  </Box>
+                  <Box
+                    display="flex"
+                    flexDir={"column"}
+                    alignItems="center"
+                    padding={"8px"}
+                  >
+                    <Image src={soccerIcon} width={"50px"} />
+                    <Button
+                      bgColor="orange"
+                      onClick={() => handleOpenModal("soccer")}
+                    >
+                      Soccer
+                    </Button>
+                  </Box>
+                </Box>
               </TabPanel>
               <TabPanel>
                 <Button bgColor="teal" onClick={() => handleOpenModal("piano")}>
                   Piano
                 </Button>
-              </TabPanel>
-              <TabPanel>
-                <Box display="flex" flexDir="column" alignItems="center">
-                  <Image width={"50px"} src={programmingIcon}></Image>
-                  <Button
-                    bgColor="orange"
-                    onClick={() => handleOpenModal("programming")}
-                  >
-                    Programming
-                  </Button>
-                </Box>
+                <Button
+                  bgColor="teal"
+                  onClick={() => handleOpenModal("programming")}
+                >
+                  Programming
+                </Button>
+                <Button
+                  bgColor="teal"
+                  onClick={() => handleOpenModal("spanish")}
+                >
+                  Spanish
+                </Button>
+                <Button
+                  bgColor="teal"
+                  onClick={() => handleOpenModal("communityService")}
+                >
+                  Community Service
+                </Button>
               </TabPanel>
             </TabPanels>
           </Tabs>

@@ -33,7 +33,7 @@ export default function AchievementModal(props) {
           </Box>
         </ModalHeader>
         <ModalCloseButton />
-        <ModalBody padding={"16px"}>
+        <ModalBody padding={"16px"} color="white">
           <Text fontSize="2xl" fontWeight={"bold"}>
             {props.activityName}
           </Text>
