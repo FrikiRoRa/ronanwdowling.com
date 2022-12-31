@@ -19,14 +19,17 @@ import MainLayout from "../components/MainLayout";
 import AchievementModal from "../components/achievementModal";
 
 import volleyballPic from "../images/volleyball.png";
+import spanishIcon from "../images/achievementIcons/spanish.png";
 import programmingIcon from "../images/achievementIcons/programming.png";
 import volleyballIcon from "../images/achievementIcons/volleyball.png";
 import hapkidoIcon from "../images/achievementIcons/hapkido.png";
 import bikingIcon from "../images/achievementIcons/biking.png";
 import basketballIcon from "../images/achievementIcons/basketball.png";
 import soccerIcon from "../images/achievementIcons/soccer.png";
-
+import pianoIcon from "../images/achievementIcons/piano.png";
 import { achievements } from "../achievementData";
+import communityService from "../images/achievementIcons/communityService.png";
+import AchievementCard from "../components/achievementCard";
 
 export default function AboutPage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -71,101 +74,57 @@ export default function AboutPage() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <Box display="flex">
-                  <Box
-                    display="flex"
-                    flexDir={"column"}
-                    alignItems="center"
-                    padding={"8px"}
-                  >
-                    <Image src={volleyballIcon} width={"50px"} />
-                    <Button
-                      bgColor="teal"
-                      onClick={() => handleOpenModal("volleyball")}
-                    >
-                      Volleyball
-                    </Button>
-                  </Box>
-                  <Box
-                    display="flex"
-                    flexDir={"column"}
-                    alignItems="center"
-                    padding={"8px"}
-                  >
-                    <Image src={hapkidoIcon} width={"50px"} />
-                    <Button
-                      bgColor="teal"
-                      onClick={() => handleOpenModal("hapkido")}
-                    >
-                      Hapkido
-                    </Button>
-                  </Box>
-                  <Box
-                    display="flex"
-                    flexDir={"column"}
-                    alignItems="center"
-                    padding={"8px"}
-                  >
-                    <Image src={basketballIcon} width={"50px"} />
-                    <Button
-                      bgColor="orange"
-                      onClick={() => handleOpenModal("basketball")}
-                    >
-                      Basketball
-                    </Button>
-                  </Box>
-                  <Box
-                    display="flex"
-                    flexDir={"column"}
-                    alignItems="center"
-                    padding={"8px"}
-                  >
-                    <Image src={bikingIcon} width={"50px"} />
-                    <Button
-                      bgColor="orange"
-                      onClick={() => handleOpenModal("biking")}
-                    >
-                      Biking
-                    </Button>
-                  </Box>
-                  <Box
-                    display="flex"
-                    flexDir={"column"}
-                    alignItems="center"
-                    padding={"8px"}
-                  >
-                    <Image src={soccerIcon} width={"50px"} />
-                    <Button
-                      bgColor="orange"
-                      onClick={() => handleOpenModal("soccer")}
-                    >
-                      Soccer
-                    </Button>
-                  </Box>
+                <Box display="flex" gap={"20px"}>
+                  <AchievementCard
+                    icon={volleyballIcon}
+                    onClick={() => handleOpenModal("volleyball")}
+                    buttonLabel={"Volleyball"}
+                  />
+                  <AchievementCard
+                    icon={hapkidoIcon}
+                    onClick={() => handleOpenModal("hapkido")}
+                    buttonLabel={"Hapkido"}
+                  />
+                  <AchievementCard
+                    icon={basketballIcon}
+                    onClick={() => handleOpenModal("basketball")}
+                    buttonLabel={"Basketball"}
+                  />
+                  <AchievementCard
+                    icon={bikingIcon}
+                    onClick={() => handleOpenModal("biking")}
+                    buttonLabel={"Biking"}
+                  />
+                  <AchievementCard
+                    icon={soccerIcon}
+                    onClick={() => handleOpenModal("soccer")}
+                    buttonLabel={"Soccer"}
+                  />
                 </Box>
               </TabPanel>
               <TabPanel>
-                <Button bgColor="teal" onClick={() => handleOpenModal("piano")}>
-                  Piano
-                </Button>
-                <Button
-                  bgColor="teal"
-                  onClick={() => handleOpenModal("programming")}
-                >
-                  Programming
-                </Button>
-                <Button
-                  bgColor="teal"
-                  onClick={() => handleOpenModal("spanish")}
-                >
-                  Spanish
-                </Button>
-                <Button
-                  bgColor="teal"
-                  onClick={() => handleOpenModal("communityService")}
-                >
-                  Community Service
-                </Button>
+                <Box display={"flex"} gap={"20px"}>
+                  <AchievementCard
+                    icon={pianoIcon}
+                    onClick={() => handleOpenModal("piano")}
+                    buttonLabel={"Piano"}
+                  />
+                  <AchievementCard
+                    icon={programmingIcon}
+                    onClick={() => handleOpenModal("programming")}
+                    buttonLabel={"Programming"}
+                  />
+                  <AchievementCard
+                    icon={spanishIcon}
+                    onClick={() => handleOpenModal("spanish")}
+                    buttonLabel={"Spanish"}
+                  />
+                  <AchievementCard
+                    icon={communityService}
+                    onClick={() => handleOpenModal("communityService")}
+                    buttonLabel={"Community Service"}
+                  />{" "}
+                </Box>
               </TabPanel>
             </TabPanels>
           </Tabs>

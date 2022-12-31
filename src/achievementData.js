@@ -22,7 +22,8 @@ export const achievements = {
   },
   volleyball: {
     name: "Volleyball",
-    description: "I like volleyball",
+    description:
+      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I just enjoy playing the sport with my friends for fun.",
     bulletPoints: [
       "I've played volleyball for 10 years now",
       "I play in the setter position",

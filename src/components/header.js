@@ -41,9 +41,6 @@ export default function Header() {
             <Link to="/about" className="hover-color">
               About
             </Link>
-            <Link to="/mycats" className="hover-color">
-              Cats
-            </Link>
             <Link to="/game" className="hover-color">
               Number Guessing Game
             </Link>
