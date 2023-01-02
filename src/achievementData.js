@@ -7,6 +7,8 @@ import communityservice from "./images/achievementBanner/communityservice.jpg";
 import biking from "./images/achievementBanner/biking.jpg";
 import spanish from "./images/achievementBanner/spanish.jpg";
 import basketball from "./images/achievementBanner/basketball.jpg";
+import summerReading from "./images/achievementBanner/summerReading.jpg";
+
 export const achievements = {
   programming: {
     name: "Programming",
@@ -23,7 +25,7 @@ export const achievements = {
   volleyball: {
     name: "Volleyball",
     description:
-      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I just enjoy playing the sport with my friends for fun.",
+      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I just enjoy playing the sport with my friends for fun. ",
     bulletPoints: [
       "I've played volleyball for 10 years now",
       "I play in the setter position",
@@ -105,5 +107,17 @@ export const achievements = {
       "I enjoy playing at the ends of the court and to get some shots in.",
     ],
     iconImg: basketball,
+  },
+  reading: {
+    name: "Reading",
+    description:
+      "I enjoy reading becauase I like the stories I read about and it is something good to keep me entertained.",
+    bulletPoints: [
+      "My favorite series that I read this summer was the Ender's Game series.",
+      "When I read ten thousand pages a summer I get to have a lunch with the headmaster/principal of the scool and we get crush cake sandwiches and cupcakes.",
+      "I have been doing that since the summer of 1st grade going into second and have been doing it every summer since then.",
+      "I would need to read about 115 pages a day  to reach that goal or do more because I may try to save a few days for when I am traveling.",
+    ],
+    iconImg: summerReading,
   },
 };
