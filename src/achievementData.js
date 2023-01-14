@@ -46,7 +46,7 @@ export const achievements = {
   hapkido: {
     name: "Hapkido",
     description:
-      "I have been doing hapkido for seven years until the black belt test",
+      "I have been doing hapkido for seven years until the black belt test.",
     bulletPoints: [
       "I have been doing hapkido since I was five",
       "During the pandemic I would do the lessons online",
