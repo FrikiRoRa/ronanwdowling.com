@@ -15,21 +15,21 @@ export const achievements = {
     description:
       "I have been programming for almost a year, and I've learned the basics of JavaScript, HTML, and CSS!",
     bulletPoints: [
-      "Sept 2022 - Published my personal site on ronanwdowling.com and React.",
-      "May 2022 - Started to learn intermediate JavaScript and React.",
-      "April 2022 - Deployed my first website to the web!",
       "Dec 2021 - Started QED Programming Project.",
+      "April 2022 - Deployed my first website to the web!",
+      "May 2022 - Started to learn intermediate JavaScript and React.",
+      "Sept 2022 - Published my personal site on ronanwdowling.com and React.",
     ],
     iconImg: programmingImg,
   },
   volleyball: {
     name: "Volleyball",
     description:
-      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I enjoy playing the sport with my friends for fun. ",
+      "I have been familiar with volleball ever since I was little but I never played competitively until 7th 8th grade where I play through my school. I enjoy how intuitive the game is but there is always a way to improve. Most importantly I enjoy playing the sport with my friends for fun.",
     bulletPoints: [
       "I've played volleyball for 10 years now.",
-      "I play in the setter position.",
-      "Whenever we play volleyball, I love getting cheeseburgers after with the team!",
+      "I play as the setter position.",
+      "After a volleyball, I love getting cheeseburgers after with the team!",
     ],
     iconImg: volleyballImg,
   },
@@ -46,21 +46,22 @@ export const achievements = {
   hapkido: {
     name: "Hapkido",
     description:
-      "I have been doing hapkido for seven years until the black belt test.",
+      "I have been doing hapkido for over seven years and I achieved my black belt when I was only in 6th grade.",
     bulletPoints: [
       "I have been doing hapkido since I was five.",
       "During the pandemic I would do the lessons online.",
-      "The final part of the black belt test is to do a flying kick to break boards of wood.",
+      "The most challenging part of the black belt test is to do a flying side kick to break three boards of wood.",
     ],
     iconImg: hapkido,
   },
   soccer: {
     name: "Soccer",
     description:
-      "I have been doing soccer since I was a little kid, but now I do it as school sports.",
+      "I have been playing soccer ever since I was in kindergarten through AYSO, but for the last two years I have been playing it through my school.",
     bulletPoints: [
-      "I have been playing soccer since I was seven.",
-      "I played the on school's soccer team in 7th grade.",
+      "I have been playing soccer since I was six.",
+      "I play the defensive position in soccer.",
+      "I enjoy the way that soccer is structured.",
       "I just completed the last soccer season for Crane this year.",
     ],
     iconImg: soccer,
@@ -68,39 +69,39 @@ export const achievements = {
   communityService: {
     name: "Community Service",
     description:
-      "Since I was young I would go to the unity shop to help stock the shelves.",
+      "Since I was young I would go to the Unity Shoppe to help stock the shelves.",
     bulletPoints: [
-      "The first time I had went to unity shop is when I was just eight.",
-      "The unity shop helps feed the people who can not buy food, and make it feel like a shop.",
-      "This year before winter break my school took us to the unity shop and I bagged some carrots.",
+      "The first time I had went to Unity Shoppe is when I was just eight.",
+      "The Unity Shoppe helps feed the people who can not buy food, and make it feel like a shop.",
+      "This year before winter break my school took us to the Unity shop and I bagged some carrots.",
     ],
     iconImg: communityservice,
   },
   biking: {
     name: "Biking",
     description:
-      "I was able to bike when I was young, but I forgot how to ride until 7th grade where I re-learned the skill and re-loved it.",
+      "I have loved to bike ever since I was young, but during covid I was not given the chance to be able to until 7th grade where I got back into it and fell in love again.",
     bulletPoints: [
-      "I did not relearn how to ride a bike by choice, I actually had to learn a few weeks in advance before my next E-Block where we would bike aorund the school neighborhood.",
-      "I ride my bike around the neighborhood every now and then and I enjoy doing it in the middle of the day.",
+      "The thing that got me inspired to get back into riding was a E-Block where we bike around the neighborhood where my school is.",
+      "I ride my bike around my neighborhood whenever I get a chance, especially in the afternoon.",
     ],
     iconImg: biking,
   },
   spanish: {
     name: "Spanish",
     description:
-      "Ever since I was a kid I have been surrounded by spanish speakers, like the daycare I went to in San Francisco when I was very young.",
+      "Ever since I was a little I have been surrounded by spanish speakers, like the daycare I went to in San Francisco when I was very young.",
     bulletPoints: [
       "I have been studying spanish since I was in kindergarten.",
       "When I was in sixth grade I was surprised to discover that I got in the 95th percentile of the Nation Spanish Exam.",
-      "My favorite spanish type holiday is the Day of the Dead, I get to eat the day of the dead bread in spanish class every year.",
+      "One of my favorite aspects of learning spanish is leaarning about all the different cultures and traditions that spanish speaking countries have such as Day of the Dead or Día de los Muertos.",
     ],
     iconImg: spanish,
   },
   basketball: {
     name: "Basketball",
     description:
-      "I have not been playing basketball for long, just for two years but now I ended up playing it competetively this year.",
+      "I have not been playing basketball for long, just for two years. This year is the first year where I played varsity basketeball",
     bulletPoints: [
       "Throghout the two years of playing basketball with my school I have improved a lot.",
       "I am in the middle of the basketball season this year for my school on the varsity team.",
@@ -111,12 +112,12 @@ export const achievements = {
   reading: {
     name: "Reading",
     description:
-      "I enjoy reading becauase I like the stories I read about and it is something good to keep me entertained.",
+      "I enjoy reading becauase it transports me into different stories and gives me endless hours of entertainment.",
     bulletPoints: [
       "My favorite series that I read this summer was the Ender's Game series.",
       "If somebody in the school acomplishes ten-thousand pages during the summer they get to eat lunch with the headmaster and the other ten-thousand page readers.",
       "I have been reading ten-thousand pages each summer since the summer of going into 2nd grade.",
-      "I would need to read about 115 pages a day to reach that goal.",
+      "I would need to read about 120 pages a day to reach that goal.",
     ],
     iconImg: summerReading,
   },

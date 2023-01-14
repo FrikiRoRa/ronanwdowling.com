@@ -64,13 +64,13 @@ export default function AboutPage() {
                   </Text>
                   <Box display={"flex"}>
                     <Text>
-                      I was born in San Francisco, CA. When I was still young I
-                      moved to Santa Barbara where I now go to school. I am fond
-                      of PC gaming, I enjoy school sports, and every year I make
-                      sure to do every sport that is offered by the school. I
-                      still play even this year when there is a lot more
-                      homework. These sports are Soccer, Volleyball, Basketball
-                      and Flag Football.
+                      I was born in San Francisco, CA. When I was three years
+                      old I moved to Santa Barbara where I now live and go to
+                      school. I enjoy learning and playing all the sports that
+                      my school offers. These sports are Soccer, Volleyball,
+                      Basketball and Flag Football. In my free time I enjoy to
+                      read and do pc gaming after a long day of school and
+                      sports.
                     </Text>
                     <Image width="50%" src={readingMountains} />
                   </Box>
