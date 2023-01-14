@@ -66,11 +66,11 @@ export default function AboutPage() {
                     <Text>
                       I was born in San Francisco, CA. When I was still young I
                       moved to Santa Barbara where I now go to school. I am fond
-                      of PC gaming, I enojoy the my school sports, every year I
-                      make sure to do every sport that is offered by the school.
-                      Even this year when there is five times as much homework.
-                      These sports are Soccer, Volleyball, Basketball and Flag
-                      Football.
+                      of PC gaming, I enjoy school sports, and every year I make
+                      sure to do every sport that is offered by the school. I
+                      still play even this year when there is a lot more
+                      homework. These sports are Soccer, Volleyball, Basketball
+                      and Flag Football.
                     </Text>
                     <Image width="50%" src={readingMountains} />
                   </Box>
@@ -136,7 +136,7 @@ export default function AboutPage() {
               </TabPanel>
               <TabPanel>
                 <Text>
-                  I created this website with Gatsby, React, and Chakra UI
+                  I created this website with Gatsby, React, and Chakra UI.
                 </Text>
                 <Box
                   display="flex"
@@ -160,7 +160,7 @@ export default function AboutPage() {
                 </Box>
                 <Text>
                   The code is hosted on GitHub, and my website is deployed via
-                  Netlify
+                  Netlify.
                 </Text>
                 <Box
                   display="flex"

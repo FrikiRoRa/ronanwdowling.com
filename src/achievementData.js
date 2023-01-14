@@ -15,20 +15,20 @@ export const achievements = {
     description:
       "I have been programming for almost a year, and I've learned the basics of JavaScript, HTML, and CSS!",
     bulletPoints: [
-      "Sept 2022 - Published my personal site on ronanwdowling.com and React",
-      "May 2022 - Started to learn intermediate JavaScript and React",
+      "Sept 2022 - Published my personal site on ronanwdowling.com and React.",
+      "May 2022 - Started to learn intermediate JavaScript and React.",
       "April 2022 - Deployed my first website to the web!",
-      "Dec 2021 - Started QED Programming Project",
+      "Dec 2021 - Started QED Programming Project.",
     ],
     iconImg: programmingImg,
   },
   volleyball: {
     name: "Volleyball",
     description:
-      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I just enjoy playing the sport with my friends for fun. ",
+      "I was familiar with volleball when I was a kid but I never actually played real games until 7th and now 8th grade where I play for my school. I enjoy how simple the game and yet there is always a way to improve. Most importantly I enjoy playing the sport with my friends for fun. ",
     bulletPoints: [
-      "I've played volleyball for 10 years now",
-      "I play in the setter position",
+      "I've played volleyball for 10 years now.",
+      "I play in the setter position.",
       "Whenever we play volleyball, I love getting cheeseburgers after with the team!",
     ],
     iconImg: volleyballImg,
@@ -37,9 +37,9 @@ export const achievements = {
     name: "Piano",
     description: "I've been learning piano for over 5 years.",
     bulletPoints: [
-      "My favorite musicians are Stevie Wonder and Mozart",
-      "I love playing for my classmates at Crane's Music Hour, a open-mic for student musicians",
-      "The most recent piece I've been practicing is Wet Hands from Minecraft",
+      "My favorite musicians are Stevie Wonder and Mozart.",
+      "I love playing for my classmates at Crane's Music Hour, an open-mic for student musicians.",
+      "The most recent piece I've been practicing is Wet Hands from Minecraft.",
     ],
     iconImg: pianoImg,
   },
@@ -48,20 +48,20 @@ export const achievements = {
     description:
       "I have been doing hapkido for seven years until the black belt test.",
     bulletPoints: [
-      "I have been doing hapkido since I was five",
-      "During the pandemic I would do the lessons online",
-      "The final part of the black belt test is to do a flying kick to break boards of wood",
+      "I have been doing hapkido since I was five.",
+      "During the pandemic I would do the lessons online.",
+      "The final part of the black belt test is to do a flying kick to break boards of wood.",
     ],
     iconImg: hapkido,
   },
   soccer: {
     name: "Soccer",
     description:
-      "I have been doing soccer for since I was a little kid, but now I do it as school sports.",
+      "I have been doing soccer since I was a little kid, but now I do it as school sports.",
     bulletPoints: [
-      "I have been doing soccer since I was 7",
-      "I played the schools soccer team in 7th grade.",
-      "I just completed the last soccer season for in the school for me this year.",
+      "I have been playing soccer since I was seven.",
+      "I played the on school's soccer team in 7th grade.",
+      "I just completed the last soccer season for Crane this year.",
     ],
     iconImg: soccer,
   },
@@ -79,9 +79,9 @@ export const achievements = {
   biking: {
     name: "Biking",
     description:
-      "I was able to bike when I was young, but I just forgot how to ride until 7th grade where I re-learned the skill and I loved it.",
+      "I was able to bike when I was young, but I forgot how to ride until 7th grade where I re-learned the skill and re-loved it.",
     bulletPoints: [
-      "I learned how to ride a bike becuase my e block had a biking activity for one of them and I wanted to go.",
+      "I did not relearn how to ride a bike by choice, I actually had to learn a few weeks in advance before my next E-Block where we would bike aorund the school neighborhood.",
       "I ride my bike around the neighborhood every now and then and I enjoy doing it in the middle of the day.",
     ],
     iconImg: biking,
@@ -102,9 +102,9 @@ export const achievements = {
     description:
       "I have not been playing basketball for long, just for two years but now I ended up playing it competetively this year.",
     bulletPoints: [
-      "Throghout theh two years of playing basketball with my school I have improved a lot.",
-      "I am in the middle of the basketball season this iyear for my school on the varsity team.",
-      "I enjoy playing at the ends of the court and to get some shots in.",
+      "Throghout the two years of playing basketball with my school I have improved a lot.",
+      "I am in the middle of the basketball season this year for my school on the varsity team.",
+      "I enjoy playing at the ends of the court to get some shots in.",
     ],
     iconImg: basketball,
   },
@@ -114,9 +114,9 @@ export const achievements = {
       "I enjoy reading becauase I like the stories I read about and it is something good to keep me entertained.",
     bulletPoints: [
       "My favorite series that I read this summer was the Ender's Game series.",
-      "When I read ten thousand pages a summer I get to have a lunch with the headmaster/principal of the scool and we get crush cake sandwiches and cupcakes.",
-      "I have been doing that since the summer of 1st grade going into second and have been doing it every summer since then.",
-      "I would need to read about 115 pages a day  to reach that goal or do more because I may try to save a few days for when I am traveling.",
+      "If somebody in the school acomplishes ten-thousand pages during the summer they get to eat lunch with the headmaster and the other ten-thousand page readers.",
+      "I have been reading ten-thousand pages each summer since the summer of going into 2nd grade.",
+      "I would need to read about 115 pages a day to reach that goal.",
     ],
     iconImg: summerReading,
   },
