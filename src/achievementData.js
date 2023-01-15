@@ -29,7 +29,7 @@ export const achievements = {
     bulletPoints: [
       "I've played volleyball for 10 years now.",
       "I play as the setter position.",
-      "After a volleyball game, I love getting cheeseburgers after with the team!",
+      "After a volleyball game, I love getting cheeseburgers with the team!",
     ],
     iconImg: volleyballImg,
   },
@@ -88,14 +88,14 @@ export const achievements = {
     ],
     iconImg: biking,
   },
-  spanish: {
+  Spanish: {
     name: "Spanish",
     description:
-      "Ever since I was a little I have been surrounded by spanish speakers, like the daycare I went to in San Francisco when I was very young.",
+      "Ever since I was a little I have been surrounded by Spanish speakers, like the daycare I went to in San Francisco when I was very young.",
     bulletPoints: [
-      "I have been studying spanish since I was in kindergarten.",
+      "I have been studying Spanish since I was in kindergarten.",
       "When I was in sixth grade I was surprised to discover that I got in the 95th percentile of the Nation Spanish Exam.",
-      "One of my favorite aspects of learning spanish is leaarning about all the different cultures and traditions that spanish speaking countries have such as Day of the Dead or Día de los Muertos.",
+      "One of my favorite aspects of learning Spanish is leaarning about all the different cultures and traditions that Spanish speaking countries have such as Day of the Dead or Día de los Muertos.",
     ],
     iconImg: spanish,
   },
