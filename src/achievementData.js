@@ -13,7 +13,7 @@ export const achievements = {
   programming: {
     name: "Programming",
     description:
-      "I have been programming for almost a year, and I've learned the basics of JavaScript, HTML, and CSS!",
+      "I have been programming for almost a year, and I've learned the basics of JavaScript, HTML and CSS!",
     bulletPoints: [
       "Dec 2021 - Started QED Programming Project.",
       "April 2022 - Deployed my first website to the web!",
@@ -72,8 +72,8 @@ export const achievements = {
       "Since I was young I would go to the Unity Shoppe to help stock the shelves.",
     bulletPoints: [
       "The first time I had went to Unity Shoppe is when I was just eight.",
-      "The Unity Shoppe helps feed the people who can not buy food, and make it feel like a shop.",
-      "This year before winter break my school took us to the Unity shop and I bagged some carrots.",
+      "The Unity Shoppe helps feed the people who can not buy food and make it feel like a shop.",
+      "This year before winter break my school took us to the Unity shoppe and I bagged some carrots.",
     ],
     iconImg: communityservice,
   },

@@ -66,11 +66,12 @@ export default function AboutPage() {
                     <Text>
                       I was born in San Francisco, CA. When I was three years
                       old I moved to Santa Barbara where I now live and go to
-                      school. I enjoy learning and playing all the sports that
-                      my school offers. These sports are Soccer, Volleyball,
-                      Basketball and Flag Football. In my free time I enjoy to
-                      read and do pc gaming after a long day of school and
-                      sports.
+                      school. My favorite class is History class, currently I am
+                      studying American History. In my free time I enjoy playing
+                      the sports that my school offers such as soccer,
+                      basketball, volleyball and flag football. Although, after
+                      a long day of school and sports I enjoy riding my bike and
+                      reading a good book.
                     </Text>
                     <Image width="50%" src={readingMountains} />
                   </Box>
@@ -179,24 +180,24 @@ export default function AboutPage() {
                 </Box>
                 <Text marginBottom={"16px"}>
                   To create websites like this, I needed to learn the basics of
-                  HTML, JavaScript, and CSS. I chose to learn these skills for
-                  my 7th grade QED project. HTML is the language that is used to
+                  HTML, JavaScript and CSS. I chose to learn these skills for my
+                  7th grade QED project. HTML is the language that is used to
                   put content and images on the website, while CSS is what I
-                  used to customize their appearance, and JS enables the
+                  used to customize their appearance and JS enables the
                   interactive parts.
                 </Text>
                 <Text marginBottom={"16px"}>
-                  After learning the basics, I started learning React, Gatsby,
-                  and ChakraUI, which are basically tools built on top of HTML,
-                  CSS, and JavaScript. They take care of some of the more
-                  tedious bits about web development, and allow me to add more
-                  complex features to my page.
+                  After learning the basics, I started learning React, Gatsby
+                  and ChakraUI which are basically tools built on top of HTML,
+                  CSS and JavaScript. They take care of some of the more tedious
+                  bits about web development and allow me to add more complex
+                  features to my page.
                 </Text>
                 <Text>
                   Throughout me building the website, I frequently save my code
-                  to GitHub, which backs up my code on the internet. Every time
-                  I push a new update, my code is automatically deployed to my
-                  website by Netlify, which talks to GitHub to get the new
+                  to GitHub which backs up my code on the internet. Every time I
+                  push a new update, my code is automatically deployed to my
+                  website by Netlify which talks to GitHub to get the new
                   updates.
                 </Text>
               </TabPanel>
