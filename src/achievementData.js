@@ -25,11 +25,11 @@ export const achievements = {
   volleyball: {
     name: "Volleyball",
     description:
-      "I have been familiar with volleball ever since I was little but I never played competitively until 7th 8th grade where I play through my school. I enjoy how intuitive the game is but there is always a way to improve. Most importantly I enjoy playing the sport with my friends for fun.",
+      "I have been familiar with volleball ever since I was little but I never played competitively until 7th grade where I played through my school. I am also playing again this year when the season starts. I enjoy how intuitive the game is but there is always a way to improve. Most importantly I enjoy playing the sport with my friends for fun.",
     bulletPoints: [
       "I've played volleyball for 10 years now.",
       "I play as the setter position.",
-      "After a volleyball, I love getting cheeseburgers after with the team!",
+      "After a volleyball game, I love getting cheeseburgers after with the team!",
     ],
     iconImg: volleyballImg,
   },
@@ -40,6 +40,7 @@ export const achievements = {
       "My favorite musicians are Stevie Wonder and Mozart.",
       "I love playing for my classmates at Crane's Music Hour, an open-mic for student musicians.",
       "The most recent piece I've been practicing is Wet Hands from Minecraft.",
+      "For over a year I have been learning how to compose music with Logix Pro X.",
     ],
     iconImg: pianoImg,
   },
@@ -72,7 +73,7 @@ export const achievements = {
       "Since I was young I would go to the Unity Shoppe to help stock the shelves.",
     bulletPoints: [
       "The first time I had went to Unity Shoppe is when I was just eight.",
-      "The Unity Shoppe helps feed the people who can not buy food and make it feel like a shop.",
+      "The Unity Shoppe helps feed the people who can not buy food and they make it feel like a shop.",
       "This year before winter break my school took us to the Unity shoppe and I bagged some carrots.",
     ],
     iconImg: communityservice,
@@ -80,7 +81,7 @@ export const achievements = {
   biking: {
     name: "Biking",
     description:
-      "I have loved to bike ever since I was young, but during covid I was not given the chance to be able to until 7th grade where I got back into it and fell in love again.",
+      "I have loved to bike ever since I was young, but during covid I was busy trying to get my black belt. Although in 7th grade I got back into it and fell in love again.",
     bulletPoints: [
       "The thing that got me inspired to get back into riding was a E-Block where we bike around the neighborhood where my school is.",
       "I ride my bike around my neighborhood whenever I get a chance, especially in the afternoon.",
