@@ -88,8 +88,8 @@ export const achievements = {
     ],
     iconImg: biking,
   },
-  Spanish: {
-    name: "spanish",
+  spanish: {
+    name: "Spanish",
     description:
       "Ever since I was a little I have been surrounded by Spanish speakers, like the daycare I went to in San Francisco when I was very young.",
     bulletPoints: [
