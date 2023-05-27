@@ -8,6 +8,7 @@ import biking from "./images/achievementBanner/biking.jpg";
 import spanish from "./images/achievementBanner/spanish.jpg";
 import basketball from "./images/achievementBanner/basketball.jpg";
 import summerReading from "./images/achievementBanner/summerReading.jpg";
+import boysGirlClub from "./images/achievementBanner/Club.jpeg";
 
 export const achievements = {
   programming: {
@@ -77,6 +78,16 @@ export const achievements = {
       "This year before winter break my school took us to the Unity shoppe and I bagged some carrots.",
     ],
     iconImg: communityservice,
+  },
+  Charity: {
+    name: "Boys and Girls Club",
+    description:
+      "After getting about 600 dollars from a snack shack that the student council members ran, we went to our nearest Boys and Girls club to donate it!",
+    bulletPoints: [
+      "When we arrived, we got a tour and met a few kids going there.",
+      "All the kids were in the gymnasium expecting us and we gave a short speech about what we did and how we got the money.",
+    ],
+    iconImg: boysGirlClub,
   },
   biking: {
     name: "Biking",

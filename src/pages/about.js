@@ -33,6 +33,7 @@ import books from "../images/achievementIcons/books.png";
 import AchievementCard from "../components/achievementCard";
 import readingMountains from "../images/readingMountains.jpeg";
 import { faBookSkull } from "@fortawesome/free-solid-svg-icons";
+import charityIcon from "../images/achievementIcons/charity.png";
 export default function AboutPage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -54,6 +55,7 @@ export default function AboutPage() {
               <Tab>About Me</Tab>
               <Tab>Sports</Tab>
               <Tab>Extracurriculars</Tab>
+              <Tab>Leadership</Tab>
               <Tab>This Website</Tab>
             </TabList>
             <TabPanels>
@@ -133,6 +135,15 @@ export default function AboutPage() {
                     onClick={() => handleOpenModal("communityService")}
                     buttonLabel={"Community Service"}
                   />{" "}
+                </Box>
+              </TabPanel>
+              <TabPanel>
+                <Box display={"flex"} gap={"20px"}>
+                  <AchievementCard
+                    icon={charityIcon}
+                    onClick={() => handleOpenModal("Charity")}
+                    buttonLabel={"Charity"}
+                  />
                 </Box>
               </TabPanel>
               <TabPanel>
